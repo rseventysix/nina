@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 260dceb63ff51d0419ea3be9b1f5f89d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8679910541276584223
+    second: mainMenuTitleAndButtons_0
+  - first:
+      213: 6308638278387621511
+    second: mainMenuTitleAndButtons_1
+  - first:
+      213: -5053642819857497979
+    second: mainMenuTitleAndButtons_2
+  - first:
+      213: 460554016806854924
+    second: mainMenuTitleAndButtons_3
+  - first:
+      213: 1585731453563798726
+    second: mainMenuTitleAndButtons_4
+  - first:
+      213: 6873421970108955322
+    second: mainMenuTitleAndButtons_5
+  - first:
+      213: 6658940605240953696
+    second: mainMenuTitleAndButtons_6
+  - first:
+      213: 6460176184433688729
+    second: mainMenuTitleAndButtons_7
+  - first:
+      213: -1965391770727970523
+    second: mainMenuTitleAndButtons_8
+  - first:
+      213: -4292341024894797806
+    second: mainMenuTitleAndButtons_9
+  - first:
+      213: -1198786353953171835
+    second: mainMenuTitleAndButtons_10
+  - first:
+      213: -4669767523717540655
+    second: mainMenuTitleAndButtons_11
+  - first:
+      213: 2857831893905636292
+    second: mainMenuTitleAndButtons_12
+  - first:
+      213: -1369471158397129394
+    second: mainMenuTitleAndButtons_13
+  - first:
+      213: -5678062790438563247
+    second: mainMenuTitleAndButtons_14
+  - first:
+      213: 5848199816550472870
+    second: mainMenuTitleAndButtons_15
+  - first:
+      213: 4299552948814489642
+    second: mainMenuTitleAndButtons_16
+  - first:
+      213: -1060522665405633987
+    second: mainMenuTitleAndButtons_17
+  - first:
+      213: -1476610363980579253
+    second: mainMenuTitleAndButtons_18
+  - first:
+      213: 4665688600116501220
+    second: mainMenuTitleAndButtons_19
+  - first:
+      213: -1168080775514840535
+    second: mainMenuTitleAndButtons_20
+  - first:
+      213: 657247167537952556
+    second: mainMenuTitleAndButtons_21
+  - first:
+      213: 4644175636728772486
+    second: mainMenuTitleAndButtons_22
+  - first:
+      213: 7939207451527188595
+    second: mainMenuTitleAndButtons_23
+  - first:
+      213: 6132237961310366757
+    second: mainMenuTitleAndButtons_24
+  - first:
+      213: 7062780047936879771
+    second: mainMenuTitleAndButtons_25
+  - first:
+      213: -8867249917882781210
+    second: mainMenuTitleAndButtons_26
+  - first:
+      213: 2254816535284790869
+    second: mainMenuTitleAndButtons_27
+  - first:
+      213: 5141198600322007437
+    second: mainMenuTitleAndButtons_28
+  - first:
+      213: -8507431972693027258
+    second: mainMenuTitleAndButtons_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_0
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 583
+        width: 610
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e66a01d953ca8780800000000000000
+      internalID: -8679910541276584223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 438
+        width: 347
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ce1129fe51a1550800000000000000
+      internalID: 6132237961310366757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_25
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 438
+        width: 347
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c7efb8809040260800000000000000
+      internalID: 7062780047936879771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 310
+        width: 347
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e13cfd2e2331f480800000000000000
+      internalID: -8867249917882781210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_27
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 310
+        width: 347
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556b35b31b7ba4f10800000000000000
+      internalID: 2254816535284790869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_28
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 183
+        width: 347
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81cde343e4395740800000000000000
+      internalID: 5141198600322007437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainMenuTitleAndButtons_29
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 183
+        width: 347
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646d4d4f1b78fe980800000000000000
+      internalID: -8507431972693027258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa763546ba066ad4ab3c83604aad5d2d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mainMenuTitleAndButtons_0: -8679910541276584223
+      mainMenuTitleAndButtons_1: 6308638278387621511
+      mainMenuTitleAndButtons_10: -1198786353953171835
+      mainMenuTitleAndButtons_11: -4669767523717540655
+      mainMenuTitleAndButtons_12: 2857831893905636292
+      mainMenuTitleAndButtons_13: -1369471158397129394
+      mainMenuTitleAndButtons_14: -5678062790438563247
+      mainMenuTitleAndButtons_15: 5848199816550472870
+      mainMenuTitleAndButtons_16: 4299552948814489642
+      mainMenuTitleAndButtons_17: -1060522665405633987
+      mainMenuTitleAndButtons_18: -1476610363980579253
+      mainMenuTitleAndButtons_19: 4665688600116501220
+      mainMenuTitleAndButtons_2: -5053642819857497979
+      mainMenuTitleAndButtons_20: -1168080775514840535
+      mainMenuTitleAndButtons_21: 657247167537952556
+      mainMenuTitleAndButtons_22: 4644175636728772486
+      mainMenuTitleAndButtons_23: 7939207451527188595
+      mainMenuTitleAndButtons_24: 6132237961310366757
+      mainMenuTitleAndButtons_25: 7062780047936879771
+      mainMenuTitleAndButtons_26: -8867249917882781210
+      mainMenuTitleAndButtons_27: 2254816535284790869
+      mainMenuTitleAndButtons_28: 5141198600322007437
+      mainMenuTitleAndButtons_29: -8507431972693027258
+      mainMenuTitleAndButtons_3: 460554016806854924
+      mainMenuTitleAndButtons_4: 1585731453563798726
+      mainMenuTitleAndButtons_5: 6873421970108955322
+      mainMenuTitleAndButtons_6: 6658940605240953696
+      mainMenuTitleAndButtons_7: 6460176184433688729
+      mainMenuTitleAndButtons_8: -1965391770727970523
+      mainMenuTitleAndButtons_9: -4292341024894797806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
