@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: e7d2c84ab03a4ed4499c9eaf17b5bff8
+guid: 092ae9262f1e3da46bbd4b379da30e43
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6011214390373112867
-    second: groundGrassOne_0
+      213: 1542173280504213015
+    second: birdFalling_0
+  - first:
+      213: 5543872480087624687
+    second: birdFalling_1
+  - first:
+      213: 7959622341103941682
+    second: birdFalling_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: groundGrassOne_0
+      name: birdFalling_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 276
-        height: 196
+        x: 85
+        y: 373
+        width: 31
+        height: 319
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32cd7e6a3af1c6350800000000000000
-      internalID: 6011214390373112867
+      spriteID: 71e6d868d66e66510800000000000000
+      internalID: 1542173280504213015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdFalling_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 661
+        height: 1940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febcfafd5aacfec40800000000000000
+      internalID: 5543872480087624687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdFalling_2
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 576
+        width: 43
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23873cbe852467e60800000000000000
+      internalID: 7959622341103941682
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 197d4d6a390286d448570f97ebb1d6a4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      groundGrassOne_0: 6011214390373112867
+      birdFalling_0: 1542173280504213015
+      birdFalling_1: 5543872480087624687
+      birdFalling_2: 7959622341103941682
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

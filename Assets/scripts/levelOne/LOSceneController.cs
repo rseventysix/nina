@@ -9,9 +9,15 @@ public class LOSceneController : MonoBehaviour
 
     [SerializeField] private GameObject arrowKeysAnimationObject;
 
+    [SerializeField] private GameObject playerObject;
+
+    [SerializeField] private GameObject hud;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        hud.SetActive(true);
+        
         sceneTransitionObject.SetActive(true);
         
         transition.SetTrigger("out");
@@ -28,6 +34,7 @@ public class LOSceneController : MonoBehaviour
     private IEnumerator ArrowsTutorial()
     {
         yield return new WaitForSeconds(2);
+        playerObject.GetComponent<Movement>().canMove = true;
         arrowKeysAnimationObject.SetActive(true);
     }
 }

@@ -20,6 +20,7 @@ public class jumpStartTrigger : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {   
+            collider.GetComponent<Movement>().canJump = true;
             jumpKeyAnimationObject.SetActive(true);
         }
     }

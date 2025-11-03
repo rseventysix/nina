@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e7d2c84ab03a4ed4499c9eaf17b5bff8
+guid: 518ccfc34584b534c9cbd0418af4264d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6011214390373112867
-    second: groundGrassOne_0
+      213: 3790690496709241226
+    second: birdSceneTwo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: groundGrassOne_0
+      name: birdSceneTwo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 276
-        height: 196
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32cd7e6a3af1c6350800000000000000
-      internalID: 6011214390373112867
+      spriteID: a89adcd3cec3b9430800000000000000
+      internalID: 3790690496709241226
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 197d4d6a390286d448570f97ebb1d6a4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      groundGrassOne_0: 6011214390373112867
+      birdSceneTwo_0: 3790690496709241226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
