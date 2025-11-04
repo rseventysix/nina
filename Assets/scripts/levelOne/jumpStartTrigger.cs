@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class jumpStartTrigger : MonoBehaviour
+public class JumpStartTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject jumpKeyAnimationObject;
     

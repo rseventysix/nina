@@ -2,10 +2,11 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class birdSceneTrigger : MonoBehaviour
+public class BirdSceneTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject birdObject;
     [SerializeField] private GameObject birdObjectTwo;
+    [SerializeField] private Sprite fallenBird;
     [SerializeField] private Sprite sadBird;
 
     [SerializeField] private Animator transition;
@@ -13,6 +14,9 @@ public class birdSceneTrigger : MonoBehaviour
 
     [SerializeField] private GameObject birdSceneAnimation;
     [SerializeField] private GameObject hud;
+
+    [SerializeField] private GameObject hudBubblesSelect;
+    [SerializeField] private Sprite yellowBubblesSelect;
 
     private Movement playerMovement;
     
@@ -45,6 +49,9 @@ public class birdSceneTrigger : MonoBehaviour
     private IEnumerator StartBirdScene()
     {
         yield return new WaitForSeconds(1.1f);
+        birdObject.GetComponent<SpriteRenderer>().sprite = fallenBird;
+
+        yield return new WaitForSeconds(1.1f);
         birdObject.GetComponent<SpriteRenderer>().sprite = sadBird;
         
         yield return new WaitForSeconds(0.5f);
@@ -63,6 +70,7 @@ public class birdSceneTrigger : MonoBehaviour
         yield return new WaitForSeconds(2);
         birdSceneAnimation.SetActive(false);
         hud.SetActive(true);
+        hudBubblesSelect.GetComponent<UnityEngine.UI.Image>().sprite = yellowBubblesSelect;
         this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
         birdObject.SetActive(false);
         birdObjectTwo.SetActive(true);
@@ -73,9 +81,9 @@ public class birdSceneTrigger : MonoBehaviour
 
         playerMovement.canMove = true;
 
-        yield return new WaitForSeconds(5);
+        /*yield return new WaitForSeconds(5);
         transition.SetTrigger("in");
         yield return new WaitForSeconds(4);
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(3);*/
     }
 }

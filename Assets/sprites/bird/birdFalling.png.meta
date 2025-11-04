@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: 092ae9262f1e3da46bbd4b379da30e43
+guid: 883f8d9a9fc690c428b64aa6baf25935
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1542173280504213015
-    second: birdFalling_0
+      213: -3868866559496115435
+    second: birdFalling 1_0
   - first:
-      213: 5543872480087624687
-    second: birdFalling_1
-  - first:
-      213: 7959622341103941682
-    second: birdFalling_2
+      213: 606024701081968996
+    second: birdFalling 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: birdFalling_0
+      name: birdFalling 1_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 373
-        width: 31
-        height: 319
+        x: 127
+        y: 137
+        width: 57
+        height: 151
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71e6d868d66e66510800000000000000
-      internalID: 1542173280504213015
+      spriteID: 51ba8ddbc560f4ac0800000000000000
+      internalID: -3868866559496115435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: birdFalling_1
+      name: birdFalling 1_1
       rect:
         serializedVersion: 2
-        x: 123
-        y: 0
-        width: 661
-        height: 1940
+        x: 184
+        y: 181
+        width: 7
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,30 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: febcfafd5aacfec40800000000000000
-      internalID: 5543872480087624687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: birdFalling_2
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 576
-        width: 43
-        height: 347
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23873cbe852467e60800000000000000
-      internalID: 7959622341103941682
+      spriteID: 4616a193148096800800000000000000
+      internalID: 606024701081968996
       vertices: []
       indices: 
       edges: []
@@ -198,9 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      birdFalling_0: 1542173280504213015
-      birdFalling_1: 5543872480087624687
-      birdFalling_2: 7959622341103941682
+      birdFalling 1_0: -3868866559496115435
+      birdFalling 1_1: 606024701081968996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

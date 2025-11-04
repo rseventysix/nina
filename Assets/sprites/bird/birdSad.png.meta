@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26b4a289fffa8b1418db6c5de7979d5b
+guid: e14e65fc2fd3dba49971a40d8f094cad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5401488574184377834
-    second: birdSad_0
+      213: -7480824073000317732
+    second: birdSad 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: birdSad_0
+      name: birdSad 1_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 18
-        width: 1400
-        height: 1186
+        x: 105
+        y: 79
+        width: 119
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 612b86592ce0a05b0800000000000000
-      internalID: -5401488574184377834
+      spriteID: cdc00a50426ce2890800000000000000
+      internalID: -7480824073000317732
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      birdSad_0: -5401488574184377834
+      birdSad 1_0: -7480824073000317732
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,9 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-public class jumpEndTrigger : MonoBehaviour
+public class JumpEndTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject jumpKeyAnimationObject;
+    [SerializeField] private GameObject jumpStartTriggerObject;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,6 +25,8 @@ public class jumpEndTrigger : MonoBehaviour
             jumpKeyAnimationObject.GetComponent<Animator>().SetTrigger("jumpTutorialEnd");
 
             StartCoroutine(jumpKeyAnimationDisable());
+
+            jumpStartTriggerObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 
