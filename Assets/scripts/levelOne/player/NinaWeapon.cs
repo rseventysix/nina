@@ -8,21 +8,34 @@ public class NinaWeapon : MonoBehaviour
 
     private float fireRate = 1f;
     private float nextFireTime = 0f;
+
+    public bool canShoot;
+
+    [SerializeField] Animator animator;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        canShoot = false;
+        
         playerMovement = GetComponentInParent<Movement>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
+        if (canShoot)
         {
-            nextFireTime = Time.time + fireRate;
+            if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
+            {
+                animator.SetBool("isShooting", true);
+                
+                nextFireTime = Time.time + fireRate;
             
-            CourageBubbleShoot();
+                CourageBubbleShoot();
+            }
+
+            else {animator.SetBool("isShooting", false);}
         }
     }
 

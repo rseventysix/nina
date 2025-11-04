@@ -2118,13 +2118,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 207724429}
+  - component: {fileID: 207724431}
+  - component: {fileID: 207724430}
   m_Layer: 0
   m_Name: shootKeyAnimation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &207724429
 Transform:
   m_ObjectHideFlags: 0
@@ -2141,6 +2143,40 @@ Transform:
   - {fileID: 1043517421}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!225 &207724430
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207724428}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!95 &207724431
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207724428}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50c5d9804474c2743bbd91aed452df02, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &225807803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3478,7 +3514,7 @@ Transform:
   m_GameObject: {fileID: 422613306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 130, y: -2, z: 0}
+  m_LocalPosition: {x: 2.5, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3543,6 +3579,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   courageBubblePrefab: {fileID: 5017441288632405975, guid: bf798a0f6432c0745a0d4f46b33e147a, type: 3}
   firePoint: {fileID: 599382950}
+  canShoot: 0
+  animator: {fileID: 422613312}
 --- !u!1 &436280992
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,7 +3682,7 @@ Transform:
   m_GameObject: {fileID: 436280992}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 130, y: -1, z: -10}
+  m_LocalPosition: {x: 2.5, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4189,7 +4227,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 130, y: -1, z: -10}
+  m_LocalPosition: {x: 2.5, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9621,7 +9659,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1114750655}
   - component: {fileID: 1114750654}
-  - component: {fileID: 1114750656}
+  - component: {fileID: 1114750657}
+  - component: {fileID: 1114750658}
+  - component: {fileID: 1114750659}
   m_Layer: 0
   m_Name: birdTwo
   m_TagString: Untagged
@@ -9702,7 +9742,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1114750656
+--- !u!61 &1114750657
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114750653}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.875, y: 12.75}
+    newSize: {x: 14.875, y: 12.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 14.875, y: 12.75}
+  m_EdgeRadius: 0
+--- !u!114 &1114750658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114750653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26f95498b1b86147a388ca953a23480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  shootKeyAnimationObject: {fileID: 207724428}
+  birdSurprised: {fileID: -1673519314590397834, guid: ce0c4e3b8c9c8a54b9dc734e90bbcd2d, type: 3}
+  transition: {fileID: 1049424829}
+--- !u!95 &1114750659
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -9710,7 +9811,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114750653}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b26f8413eb4063d42b2ac2afc433b610, type: 2}
   m_CullingMode: 0
@@ -13751,8 +13852,8 @@ Transform:
   m_GameObject: {fileID: 1537515410}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 148.765, y: -5.416, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 148.7632, y: -5.416, z: 0}
+  m_LocalScale: {x: 1.0013, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 185225626}
@@ -16870,6 +16971,7 @@ MonoBehaviour:
   hud: {fileID: 1062348011}
   hudBubblesSelect: {fileID: 1400001808}
   yellowBubblesSelect: {fileID: 4791522555405805181, guid: bb43061c599f13245892937fbfaea930, type: 3}
+  shootKeyAnimationObject: {fileID: 207724428}
 --- !u!1 &1937953367
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,11 @@ public class BirdSceneTrigger : MonoBehaviour
     [SerializeField] private GameObject hudBubblesSelect;
     [SerializeField] private Sprite yellowBubblesSelect;
 
+    [SerializeField] private GameObject shootKeyAnimationObject;
+
     private Movement playerMovement;
+
+    private NinaWeapon ninaWeapon;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,6 +41,8 @@ public class BirdSceneTrigger : MonoBehaviour
         if (collider.CompareTag("Player"))
         {   
             playerMovement = collider.GetComponent<Movement>();
+
+            ninaWeapon = collider.GetComponent<NinaWeapon>();
 
             playerMovement.canMove = false;
             
@@ -81,9 +87,7 @@ public class BirdSceneTrigger : MonoBehaviour
 
         playerMovement.canMove = true;
 
-        /*yield return new WaitForSeconds(5);
-        transition.SetTrigger("in");
-        yield return new WaitForSeconds(4);
-        SceneManager.LoadSceneAsync(3);*/
+        shootKeyAnimationObject.SetActive(true);
+        ninaWeapon.canShoot = true;
     }
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - ArrowsEndTrigger
+  - courageBubble
   layers:
   - Default
   - TransparentFX
