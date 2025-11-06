@@ -1,0 +1,578 @@
+fileFormatVersion: 2
+guid: a2e3075d4e774924d95ed0fd52ef928f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2231090587599015781
+    second: hudTextsAndKeysTutorial_0
+  - first:
+      213: -2852963115127510796
+    second: hudTextsAndKeysTutorial_1
+  - first:
+      213: 5722559924964140582
+    second: hudTextsAndKeysTutorial_2
+  - first:
+      213: -7962234475555071312
+    second: hudTextsAndKeysTutorial_3
+  - first:
+      213: 8067602866097722201
+    second: hudTextsAndKeysTutorial_4
+  - first:
+      213: -255633616227157484
+    second: hudTextsAndKeysTutorial_5
+  - first:
+      213: 2938496584200391935
+    second: hudTextsAndKeysTutorial_6
+  - first:
+      213: -4477048792511298718
+    second: hudTextsAndKeysTutorial_7
+  - first:
+      213: -2379646045519364696
+    second: hudTextsAndKeysTutorial_8
+  - first:
+      213: -3748195057264392208
+    second: hudTextsAndKeysTutorial_9
+  - first:
+      213: -8208994799295408875
+    second: hudTextsAndKeysTutorial_10
+  - first:
+      213: 6638292627305986217
+    second: hudTextsAndKeysTutorial_11
+  - first:
+      213: 4044175117027981224
+    second: hudTextsAndKeysTutorial_12
+  - first:
+      213: 4445867768061874860
+    second: hudTextsAndKeysTutorial_13
+  - first:
+      213: -5343182857859721676
+    second: hudTextsAndKeysTutorial_14
+  - first:
+      213: -2448260461524447761
+    second: hudTextsAndKeysTutorial_15
+  - first:
+      213: 2008470594456779130
+    second: hudTextsAndKeysTutorial_16
+  - first:
+      213: -8008674587757816976
+    second: hudTextsAndKeysTutorial_17
+  - first:
+      213: 8507016404554827314
+    second: hudTextsAndKeysTutorial_18
+  - first:
+      213: -1398008123665081825
+    second: hudTextsAndKeysTutorial_19
+  - first:
+      213: 2084598801010722733
+    second: hudTextsAndKeysTutorial_20
+  - first:
+      213: 6570853663915547711
+    second: hudTextsAndKeysTutorial_21
+  - first:
+      213: 32153686401134095
+    second: hudTextsAndKeysTutorial_22
+  - first:
+      213: -979335916125527200
+    second: hudTextsAndKeysTutorial_23
+  - first:
+      213: -1492602173427279755
+    second: hudTextsAndKeysTutorial_24
+  - first:
+      213: -7767886256714259658
+    second: hudTextsAndKeysTutorial_25
+  - first:
+      213: 2493746885589371755
+    second: hudTextsAndKeysTutorial_26
+  - first:
+      213: 2218456804589894186
+    second: hudTextsAndKeysTutorial_27
+  - first:
+      213: -3082099922093589542
+    second: hudTextsAndKeysTutorial_28
+  - first:
+      213: -5671628685975656427
+    second: hudTextsAndKeysTutorial_29
+  - first:
+      213: -4759875098008718526
+    second: hudTextsAndKeysTutorial_30
+  - first:
+      213: 3380051689057248373
+    second: hudTextsAndKeysTutorial_31
+  - first:
+      213: 701004918459595309
+    second: hudTextsAndKeysTutorial_32
+  - first:
+      213: -5031318196519961878
+    second: hudTextsAndKeysTutorial_33
+  - first:
+      213: -3461775868394992901
+    second: hudTextsAndKeysTutorial_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 926
+        width: 1601
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9071707ee29901e0800000000000000
+      internalID: -2231090587599015781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 702
+        width: 188
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a15dbb407499ce0800000000000000
+      internalID: -1398008123665081825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_20
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 702
+        width: 167
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da70379909bfdec10800000000000000
+      internalID: 2084598801010722733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_21
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 702
+        width: 197
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c92cce79c503b50800000000000000
+      internalID: 6570853663915547711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_22
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 702
+        width: 388
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ea8208b9b327000800000000000000
+      internalID: 32153686401134095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_24
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 532
+        width: 625
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57814ed3b36394be0800000000000000
+      internalID: -1492602173427279755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 224
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2af02bb5ba89ce10800000000000000
+      internalID: 2218456804589894186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 224
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb3a55537e2a35d0800000000000000
+      internalID: -3082099922093589542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_29
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 224
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518618a72c35a41b0800000000000000
+      internalID: -5671628685975656427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 862
+        width: 1202
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24376f731d681fdb0800000000000000
+      internalID: -4759875098008718526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_31
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 224
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57467b85a1b58ee20800000000000000
+      internalID: 3380051689057248373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_32
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 224
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2af59e52487ab900800000000000000
+      internalID: 701004918459595309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_33
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 224
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf770e1ca2d2ab0800000000000000
+      internalID: -5031318196519961878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hudTextsAndKeysTutorial_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 44
+        width: 1014
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa0c40603d45ffc0800000000000000
+      internalID: -3461775868394992901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3dd3b301952da3044a6ec45244934bf2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hudTextsAndKeysTutorial_0: -2231090587599015781
+      hudTextsAndKeysTutorial_1: -2852963115127510796
+      hudTextsAndKeysTutorial_10: -8208994799295408875
+      hudTextsAndKeysTutorial_11: 6638292627305986217
+      hudTextsAndKeysTutorial_12: 4044175117027981224
+      hudTextsAndKeysTutorial_13: 4445867768061874860
+      hudTextsAndKeysTutorial_14: -5343182857859721676
+      hudTextsAndKeysTutorial_15: -2448260461524447761
+      hudTextsAndKeysTutorial_16: 2008470594456779130
+      hudTextsAndKeysTutorial_17: -8008674587757816976
+      hudTextsAndKeysTutorial_18: 8507016404554827314
+      hudTextsAndKeysTutorial_19: -1398008123665081825
+      hudTextsAndKeysTutorial_2: 5722559924964140582
+      hudTextsAndKeysTutorial_20: 2084598801010722733
+      hudTextsAndKeysTutorial_21: 6570853663915547711
+      hudTextsAndKeysTutorial_22: 32153686401134095
+      hudTextsAndKeysTutorial_23: -979335916125527200
+      hudTextsAndKeysTutorial_24: -1492602173427279755
+      hudTextsAndKeysTutorial_25: -7767886256714259658
+      hudTextsAndKeysTutorial_26: 2493746885589371755
+      hudTextsAndKeysTutorial_27: 2218456804589894186
+      hudTextsAndKeysTutorial_28: -3082099922093589542
+      hudTextsAndKeysTutorial_29: -5671628685975656427
+      hudTextsAndKeysTutorial_3: -7962234475555071312
+      hudTextsAndKeysTutorial_30: -4759875098008718526
+      hudTextsAndKeysTutorial_31: 3380051689057248373
+      hudTextsAndKeysTutorial_32: 701004918459595309
+      hudTextsAndKeysTutorial_33: -5031318196519961878
+      hudTextsAndKeysTutorial_34: -3461775868394992901
+      hudTextsAndKeysTutorial_4: 8067602866097722201
+      hudTextsAndKeysTutorial_5: -255633616227157484
+      hudTextsAndKeysTutorial_6: 2938496584200391935
+      hudTextsAndKeysTutorial_7: -4477048792511298718
+      hudTextsAndKeysTutorial_8: -2379646045519364696
+      hudTextsAndKeysTutorial_9: -3748195057264392208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

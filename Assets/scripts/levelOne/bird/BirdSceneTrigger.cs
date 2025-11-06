@@ -74,10 +74,11 @@ public class BirdSceneTrigger : MonoBehaviour
         transition.SetTrigger("in");
 
         yield return new WaitForSeconds(2);
+        this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
         birdSceneAnimation.SetActive(false);
         hud.SetActive(true);
         hudBubblesSelect.GetComponent<UnityEngine.UI.Image>().sprite = yellowBubblesSelect;
-        this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        
         birdObject.SetActive(false);
         birdObjectTwo.SetActive(true);
 

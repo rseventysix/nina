@@ -23,6 +23,8 @@ public class ArrowsEndTrigger : MonoBehaviour
         {   
             arrowKeysAnimationObject.GetComponent<Animator>().SetTrigger("arrowsTutorialEnd");
 
+            this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
             StartCoroutine(arrowKeysAnimationDisable());
         }
     }

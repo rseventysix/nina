@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: f4bdb9af199c9004daa6a1934525f067
+guid: dec8ba33f2467a14ebc7527effb5beee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5369153986074941567
-    second: arrowKeys_0
-  - first:
-      213: -7742841850700911382
-    second: arrowKeys_1
-  - first:
-      213: 5307707690786084225
-    second: arrowKeys_2
-  - first:
-      213: -124560060115617038
-    second: arrowKeys_3
+      213: 4251789630877036292
+    second: catTwo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arrowKeys_0
+      name: catTwo_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 1
-        width: 95
-        height: 101
+        x: 0
+        y: 0
+        width: 239
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f789e547a11138a40800000000000000
-      internalID: 5369153986074941567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrowKeys_1
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 102
-        width: 95
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aeca1f03c56eb8490800000000000000
-      internalID: -7742841850700911382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrowKeys_2
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 1
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 185d9e8f504c8a940800000000000000
-      internalID: 5307707690786084225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrowKeys_3
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 1
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fa7b970949754ef0800000000000000
-      internalID: -124560060115617038
+      spriteID: 40f6d107424610b30800000000000000
+      internalID: 4251789630877036292
       vertices: []
       indices: 
       edges: []
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arrowKeys_0: 5369153986074941567
-      arrowKeys_1: -7742841850700911382
-      arrowKeys_2: 5307707690786084225
-      arrowKeys_3: -124560060115617038
+      catTwo_0: 4251789630877036292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

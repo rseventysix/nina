@@ -24,6 +24,8 @@ public class JumpEndTrigger : MonoBehaviour
         {   
             jumpKeyAnimationObject.GetComponent<Animator>().SetTrigger("jumpTutorialEnd");
 
+            this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
             StartCoroutine(jumpKeyAnimationDisable());
 
             jumpStartTriggerObject.GetComponent<BoxCollider2D>().enabled = false;
