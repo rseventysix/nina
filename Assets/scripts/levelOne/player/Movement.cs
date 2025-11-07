@@ -85,9 +85,4 @@ public class Movement : MonoBehaviour
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.8f, groundLayer);
     }
-
-    public void SetSpeed(float newSpeed)
-    {
-        speed = newSpeed;
-    }
 }
