@@ -3,7 +3,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
+    public float speed = 6f;
     private float jumpingPower = 16f;
     public bool isFacingRight = true;
 
@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         canMove = false;
-        canJump = false;
+        canJump = true;
     }
 
     // Update is called once per frame

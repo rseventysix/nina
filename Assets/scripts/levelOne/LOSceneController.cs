@@ -35,6 +35,6 @@ public class LOSceneController : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         playerObject.GetComponent<Movement>().canMove = true;
-        arrowKeysAnimationObject.SetActive(true);
+        //arrowKeysAnimationObject.SetActive(true);
     }
 }

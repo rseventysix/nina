@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 34ed443cafaf2a84680854baefa062a3
+guid: d539447c5825a4b48957d9c017e96bec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1042804333954960581
-    second: birdSceneSix_0
+      213: -9117900356971388359
+    second: catOrangeStressed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: birdSceneSix_0
+      name: catOrangeStressed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 22
+        y: 25
+        width: 128
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b337068bbf63781f0800000000000000
-      internalID: -1042804333954960581
+      spriteID: 932205d1fe5b67180800000000000000
+      internalID: -9117900356971388359
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      birdSceneSix_0: -1042804333954960581
+      catOrangeStressed_0: -9117900356971388359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

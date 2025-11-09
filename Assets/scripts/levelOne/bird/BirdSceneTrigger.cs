@@ -9,8 +9,7 @@ public class BirdSceneTrigger : MonoBehaviour
     [SerializeField] private Sprite fallenBird;
     [SerializeField] private Sprite sadBird;
 
-    [SerializeField] private Animator transition;
-    [SerializeField] private GameObject sceneTransitionObject;
+    [SerializeField] private GameObject comicTransitionObject;
 
     [SerializeField] private GameObject birdSceneAnimation;
     [SerializeField] private GameObject hud;
@@ -61,29 +60,22 @@ public class BirdSceneTrigger : MonoBehaviour
         birdObject.GetComponent<SpriteRenderer>().sprite = sadBird;
         
         yield return new WaitForSeconds(0.5f);
-        transition.SetTrigger("in");
+        comicTransitionObject.SetActive(true);
 
-        yield return new WaitForSeconds(2);
-        hud.SetActive(false);
-
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         birdSceneAnimation.SetActive(true);
-        transition.SetTrigger("out");
 
-        yield return new WaitForSeconds(15);
-        transition.SetTrigger("in");
+        yield return new WaitForSeconds(20.5f);
 
-        yield return new WaitForSeconds(2);
         this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
         birdSceneAnimation.SetActive(false);
-        hud.SetActive(true);
         hudBubblesSelect.GetComponent<UnityEngine.UI.Image>().sprite = yellowBubblesSelect;
-        
         birdObject.SetActive(false);
         birdObjectTwo.SetActive(true);
 
         yield return new WaitForSeconds(2);
-        transition.SetTrigger("out");
+
+        comicTransitionObject.GetComponent<Animator>().SetTrigger("out");
         yield return new WaitForSeconds(2);
 
         playerMovement.canMove = true;

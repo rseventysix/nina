@@ -9,6 +9,8 @@ public class BirdFlyingSceneTrigger : MonoBehaviour
     [SerializeField] private Sprite birdSurprised;
 
     [SerializeField] private Animator transition;
+
+    [SerializeField] private GameObject wall;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -43,9 +45,9 @@ public class BirdFlyingSceneTrigger : MonoBehaviour
 
         GetComponentInParent<Animator>().enabled = true;
 
-        yield return new WaitForSeconds(10);
-        transition.SetTrigger("in");
-        yield return new WaitForSeconds(4);
-        SceneManager.LoadSceneAsync(3);
+        yield return new WaitForSeconds(8);
+        this.gameObject.SetActive(false);
+
+        wall.SetActive(false);
     }
 }
