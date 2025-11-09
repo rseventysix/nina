@@ -12,16 +12,15 @@ public class BirdSceneTrigger : MonoBehaviour
     [SerializeField] private GameObject comicTransitionObject;
 
     [SerializeField] private GameObject birdSceneAnimation;
-    [SerializeField] private GameObject hud;
-
-    [SerializeField] private GameObject hudBubblesSelect;
-    [SerializeField] private Sprite yellowBubblesSelect;
 
     [SerializeField] private GameObject shootKeyAnimationObject;
 
     private Movement playerMovement;
 
     private NinaWeapon ninaWeapon;
+
+    [SerializeField] private GameObject hudBubblesSelect;
+    [SerializeField] private Sprite yellowBubblesSelect;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -82,5 +81,6 @@ public class BirdSceneTrigger : MonoBehaviour
 
         shootKeyAnimationObject.SetActive(true);
         ninaWeapon.canShoot = true;
+        ninaWeapon.courageBubble = true;
     }
 }
