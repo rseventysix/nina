@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class catsChallengeScript : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class catsChallengeScript : MonoBehaviour
 
     [SerializeField] private GameObject hudBubblesSelect;
     [SerializeField] private Sprite yellowBubblesSelect;
+
+    [SerializeField] private Animator transition;
+
+    private bool respawn = false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,9 +37,10 @@ public class catsChallengeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ninaEndurance == 0)
+        if (ninaEndurance == 0 && !respawn)
         {
-            RespawnNina();
+            respawn = true;
+            StartCoroutine(RespawnTransition());
         }
     }
 
@@ -54,9 +60,8 @@ public class catsChallengeScript : MonoBehaviour
 
     private void RespawnNina()
     {
-        this.transform.position = new Vector2(274.2f, 2.5f);
+        this.transform.position = new Vector2(274.2f, 2.2f);
             
-        ninaEndurance = 4;
         ninaLife.GetComponent<UnityEngine.UI.Image>().sprite 
         = ninaLifeChange[0];
         lifeSpriteIndex = 0;
@@ -82,5 +87,25 @@ public class catsChallengeScript : MonoBehaviour
         this.GetComponent<NinaWeapon>().courageBubble = true;
         this.GetComponent<NinaWeapon>().friendshipBubble = false;
         hudBubblesSelect.GetComponent<UnityEngine.UI.Image>().sprite = yellowBubblesSelect;
+    }
+
+    private IEnumerator RespawnTransition()
+    {
+        this.GetComponent<Movement>().canMove = false;
+        this.GetComponent<NinaWeapon>().canShoot = false;
+        
+        transition.SetTrigger("in");
+        yield return new WaitForSeconds(2);
+
+        RespawnNina();
+        ninaEndurance = 4;
+
+        transition.SetTrigger("out");
+        yield return new WaitForSeconds(2);
+
+        this.GetComponent<Movement>().canMove = true;
+        this.GetComponent<NinaWeapon>().canShoot = true;
+
+        respawn = false;
     }
 }

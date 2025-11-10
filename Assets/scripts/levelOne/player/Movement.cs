@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         canMove = false;
-        canJump = true;
+        canJump = false;
     }
 
     // Update is called once per frame

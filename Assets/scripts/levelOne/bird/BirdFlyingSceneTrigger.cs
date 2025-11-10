@@ -8,8 +8,6 @@ public class BirdFlyingSceneTrigger : MonoBehaviour
 
     [SerializeField] private Sprite birdSurprised;
 
-    [SerializeField] private Animator transition;
-
     [SerializeField] private GameObject wall;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created

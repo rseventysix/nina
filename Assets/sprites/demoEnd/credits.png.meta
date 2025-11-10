@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: a505e74eb95a14641933c58424b6dd06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3560698593848636649
+    second: credits_0
+  - first:
+      213: 4247348734372425677
+    second: credits_1
+  - first:
+      213: -3501742918242304312
+    second: credits_2
+  - first:
+      213: -2759770351195184420
+    second: credits_3
+  - first:
+      213: 6436455310604450723
+    second: credits_4
+  - first:
+      213: -4351946865466845592
+    second: credits_5
+  - first:
+      213: 2239952962376120338
+    second: credits_6
+  - first:
+      213: 1893597706070973196
+    second: credits_7
+  - first:
+      213: 5078419800979956328
+    second: credits_8
+  - first:
+      213: 2538644440574220159
+    second: credits_9
+  - first:
+      213: -8181063627904581737
+    second: credits_10
+  - first:
+      213: -4810815104508493938
+    second: credits_11
+  - first:
+      213: -6153241491943159364
+    second: credits_12
+  - first:
+      213: 3792030728795158607
+    second: credits_13
+  - first:
+      213: -4996780057043383891
+    second: credits_14
+  - first:
+      213: 6174330406020222490
+    second: credits_15
+  - first:
+      213: 1666571290930605714
+    second: credits_16
+  - first:
+      213: 8336038373955155136
+    second: credits_17
+  - first:
+      213: -6930673108247765729
+    second: credits_18
+  - first:
+      213: 8346865076652379040
+    second: credits_19
+  - first:
+      213: -2385580983019816542
+    second: credits_20
+  - first:
+      213: -1317223749910915459
+    second: credits_21
+  - first:
+      213: -7273140958322278348
+    second: credits_22
+  - first:
+      213: 3498742063538013304
+    second: credits_23
+  - first:
+      213: 3717173767160654511
+    second: credits_24
+  - first:
+      213: 1066783079290058049
+    second: credits_25
+  - first:
+      213: 6943093191804373643
+    second: credits_26
+  - first:
+      213: 6405156903081814332
+    second: credits_27
+  - first:
+      213: 4030863896970958718
+    second: credits_28
+  - first:
+      213: -3911476776653135782
+    second: credits_29
+  - first:
+      213: 1617976816084932099
+    second: credits_30
+  - first:
+      213: -2857741111093872921
+    second: credits_31
+  - first:
+      213: 3914781897149458760
+    second: credits_32
+  - first:
+      213: 655208036900802890
+    second: credits_33
+  - first:
+      213: 7913338318596421735
+    second: credits_34
+  - first:
+      213: -2856273264163354040
+    second: credits_35
+  - first:
+      213: -5436853463409292089
+    second: credits_36
+  - first:
+      213: -8246707538428821486
+    second: credits_37
+  - first:
+      213: -5304312034725718575
+    second: credits_38
+  - first:
+      213: 4099723884323735428
+    second: credits_39
+  - first:
+      213: 7934345624357955716
+    second: credits_40
+  - first:
+      213: -7099936066357175360
+    second: credits_41
+  - first:
+      213: 5943283872761254255
+    second: credits_42
+  - first:
+      213: -8219068945538672792
+    second: credits_43
+  - first:
+      213: -3966471647579963104
+    second: credits_44
+  - first:
+      213: -1058751933257725831
+    second: credits_45
+  - first:
+      213: 289155649038839353
+    second: credits_46
+  - first:
+      213: -491188955860553601
+    second: credits_47
+  - first:
+      213: 4651676864871811742
+    second: credits_48
+  - first:
+      213: 3310623312146999298
+    second: credits_49
+  - first:
+      213: 1554879945811548566
+    second: credits_50
+  - first:
+      213: 3828227083020996506
+    second: credits_51
+  - first:
+      213: 554462039273394800
+    second: credits_52
+  - first:
+      213: 7714128557767807226
+    second: credits_53
+  - first:
+      213: -4925313594667788480
+    second: credits_54
+  - first:
+      213: -5919143578378317076
+    second: credits_55
+  - first:
+      213: 3678502735178143640
+    second: credits_56
+  - first:
+      213: -6533216505931801675
+    second: credits_57
+  - first:
+      213: -7006673593054611199
+    second: credits_58
+  - first:
+      213: -1854859724074397396
+    second: credits_59
+  - first:
+      213: 7483981427748559515
+    second: credits_60
+  - first:
+      213: 2933812864024492279
+    second: credits_61
+  - first:
+      213: -5101161015840893510
+    second: credits_62
+  - first:
+      213: 8335825547589540852
+    second: credits_63
+  - first:
+      213: -3705536259959193724
+    second: credits_64
+  - first:
+      213: 6266172659292107333
+    second: credits_65
+  - first:
+      213: 2687398747886911971
+    second: credits_66
+  - first:
+      213: 7481459601678686969
+    second: credits_67
+  - first:
+      213: 3048998427245100848
+    second: credits_68
+  - first:
+      213: -7871999011985750990
+    second: credits_69
+  - first:
+      213: -8127445405553003191
+    second: credits_70
+  - first:
+      213: 8159730407702245652
+    second: credits_71
+  - first:
+      213: -6923478286012995718
+    second: credits_72
+  - first:
+      213: 4121646840042845066
+    second: credits_73
+  - first:
+      213: -719314763134402336
+    second: credits_74
+  - first:
+      213: 4947212197412697047
+    second: credits_75
+  - first:
+      213: 6210426548294535285
+    second: credits_76
+  - first:
+      213: 2557300507101672839
+    second: credits_77
+  - first:
+      213: 8014159868919362633
+    second: credits_78
+  - first:
+      213: -5567979948958137634
+    second: credits_79
+  - first:
+      213: 1212970441270858759
+    second: credits_80
+  - first:
+      213: 546472629597477161
+    second: credits_81
+  - first:
+      213: -5106900498667907217
+    second: credits_82
+  - first:
+      213: -1058492652903527227
+    second: credits_83
+  - first:
+      213: 209016049391222878
+    second: credits_84
+  - first:
+      213: 1957790065620502386
+    second: credits_85
+  - first:
+      213: -5654022524830315524
+    second: credits_86
+  - first:
+      213: 8923750213904558042
+    second: credits_87
+  - first:
+      213: 9124485154410214271
+    second: credits_88
+  - first:
+      213: -1051043818919212324
+    second: credits_89
+  - first:
+      213: -3907143794287746740
+    second: credits_90
+  - first:
+      213: -7426949426627431191
+    second: credits_91
+  - first:
+      213: 3702559724368876674
+    second: credits_92
+  - first:
+      213: -5965044648118335374
+    second: credits_93
+  - first:
+      213: 9039702043636662550
+    second: credits_94
+  - first:
+      213: -278523949649205044
+    second: credits_95
+  - first:
+      213: 3454518821717324565
+    second: credits_96
+  - first:
+      213: -957808090608164344
+    second: credits_97
+  - first:
+      213: 3155886822016863060
+    second: credits_98
+  - first:
+      213: 4705104489006073257
+    second: credits_99
+  - first:
+      213: -7175831268729480888
+    second: credits_100
+  - first:
+      213: 1665472047961035681
+    second: credits_101
+  - first:
+      213: 833754887911754300
+    second: credits_102
+  - first:
+      213: 5640013611502524809
+    second: credits_103
+  - first:
+      213: -8321154029882149113
+    second: credits_104
+  - first:
+      213: 5030406730332944586
+    second: credits_105
+  - first:
+      213: -1984179503145407599
+    second: credits_106
+  - first:
+      213: 7866453784867908557
+    second: credits_107
+  - first:
+      213: 941878862230880938
+    second: credits_108
+  - first:
+      213: -6873565565593472824
+    second: credits_109
+  - first:
+      213: 1409640830377623245
+    second: credits_110
+  - first:
+      213: -3053939209213192507
+    second: credits_111
+  - first:
+      213: -6091731855286256136
+    second: credits_112
+  - first:
+      213: -8473808957979488576
+    second: credits_113
+  - first:
+      213: 7682398845278274738
+    second: credits_114
+  - first:
+      213: -9065163458384864903
+    second: credits_115
+  - first:
+      213: 2840604018863900423
+    second: credits_116
+  - first:
+      213: 861510296921215164
+    second: credits_117
+  - first:
+      213: -420690462507554324
+    second: credits_118
+  - first:
+      213: -1003810512075207936
+    second: credits_119
+  - first:
+      213: 2121771194987915189
+    second: credits_120
+  - first:
+      213: 7824287211220443171
+    second: credits_121
+  - first:
+      213: 5501689890314149617
+    second: credits_122
+  - first:
+      213: 8815553931774246972
+    second: credits_123
+  - first:
+      213: -5676821417673576892
+    second: credits_124
+  - first:
+      213: 578712914907478588
+    second: credits_125
+  - first:
+      213: -8137323799929050881
+    second: credits_126
+  - first:
+      213: 2584007529722265053
+    second: credits_127
+  - first:
+      213: -3686441858673186
+    second: credits_128
+  - first:
+      213: -5671928133001562369
+    second: credits_129
+  - first:
+      213: 5254392090959874407
+    second: credits_130
+  - first:
+      213: -7096641211817969263
+    second: credits_131
+  - first:
+      213: -3589199793368021627
+    second: credits_132
+  - first:
+      213: -6447736063051760443
+    second: credits_133
+  - first:
+      213: 5408928011543195849
+    second: credits_134
+  - first:
+      213: -7098026373558998805
+    second: credits_135
+  - first:
+      213: 8250072563931084943
+    second: credits_136
+  - first:
+      213: 487257581627169574
+    second: credits_137
+  - first:
+      213: 3990156928038997556
+    second: credits_138
+  - first:
+      213: -58906173846358556
+    second: credits_139
+  - first:
+      213: 2563334580724635412
+    second: credits_140
+  - first:
+      213: 6916752011748755048
+    second: credits_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: credits_0
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1017
+        width: 189
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b4b698e7bd59ec0800000000000000
+      internalID: -3560698593848636649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_10
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 742
+        width: 373
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ff0edb9f5077e80800000000000000
+      internalID: -8181063627904581737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_37
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 736
+        width: 420
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2100a6dcf2fcd8d80800000000000000
+      internalID: -8246707538428821486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 675
+        width: 437
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d51850de4c4366b0800000000000000
+      internalID: -5304312034725718575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 529
+        width: 410
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f0ffacf38902530800000000000000
+      internalID: 3828227083020996506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_61
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 529
+        width: 357
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b6ad714ff6b820800000000000000
+      internalID: 2933812864024492279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 475
+        width: 401
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57840ca9a0edf2650800000000000000
+      internalID: 6210426548294535285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 341
+        width: 150
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7332f287eea0ae70800000000000000
+      internalID: 9124485154410214271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_93
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 341
+        width: 376
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278cf872f77e73da0800000000000000
+      internalID: -5965044648118335374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_98
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 341
+        width: 271
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bc6a11856fbcb20800000000000000
+      internalID: 3155886822016863060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_119
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 274
+        width: 289
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b44fd58afb112f0800000000000000
+      internalID: -1003810512075207936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credits_124
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 274
+        width: 270
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eac3a6ff0e731b0800000000000000
+      internalID: -5676821417673576892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d40c8f1787469f94ab8067cc4e23298c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      credits_0: -3560698593848636649
+      credits_1: 4247348734372425677
+      credits_10: -8181063627904581737
+      credits_100: -7175831268729480888
+      credits_101: 1665472047961035681
+      credits_102: 833754887911754300
+      credits_103: 5640013611502524809
+      credits_104: -8321154029882149113
+      credits_105: 5030406730332944586
+      credits_106: -1984179503145407599
+      credits_107: 7866453784867908557
+      credits_108: 941878862230880938
+      credits_109: -6873565565593472824
+      credits_11: -4810815104508493938
+      credits_110: 1409640830377623245
+      credits_111: -3053939209213192507
+      credits_112: -6091731855286256136
+      credits_113: -8473808957979488576
+      credits_114: 7682398845278274738
+      credits_115: -9065163458384864903
+      credits_116: 2840604018863900423
+      credits_117: 861510296921215164
+      credits_118: -420690462507554324
+      credits_119: -1003810512075207936
+      credits_12: -6153241491943159364
+      credits_120: 2121771194987915189
+      credits_121: 7824287211220443171
+      credits_122: 5501689890314149617
+      credits_123: 8815553931774246972
+      credits_124: -5676821417673576892
+      credits_125: 578712914907478588
+      credits_126: -8137323799929050881
+      credits_127: 2584007529722265053
+      credits_128: -3686441858673186
+      credits_129: -5671928133001562369
+      credits_13: 3792030728795158607
+      credits_130: 5254392090959874407
+      credits_131: -7096641211817969263
+      credits_132: -3589199793368021627
+      credits_133: -6447736063051760443
+      credits_134: 5408928011543195849
+      credits_135: -7098026373558998805
+      credits_136: 8250072563931084943
+      credits_137: 487257581627169574
+      credits_138: 3990156928038997556
+      credits_139: -58906173846358556
+      credits_14: -4996780057043383891
+      credits_140: 2563334580724635412
+      credits_141: 6916752011748755048
+      credits_15: 6174330406020222490
+      credits_16: 1666571290930605714
+      credits_17: 8336038373955155136
+      credits_18: -6930673108247765729
+      credits_19: 8346865076652379040
+      credits_2: -3501742918242304312
+      credits_20: -2385580983019816542
+      credits_21: -1317223749910915459
+      credits_22: -7273140958322278348
+      credits_23: 3498742063538013304
+      credits_24: 3717173767160654511
+      credits_25: 1066783079290058049
+      credits_26: 6943093191804373643
+      credits_27: 6405156903081814332
+      credits_28: 4030863896970958718
+      credits_29: -3911476776653135782
+      credits_3: -2759770351195184420
+      credits_30: 1617976816084932099
+      credits_31: -2857741111093872921
+      credits_32: 3914781897149458760
+      credits_33: 655208036900802890
+      credits_34: 7913338318596421735
+      credits_35: -2856273264163354040
+      credits_36: -5436853463409292089
+      credits_37: -8246707538428821486
+      credits_38: -5304312034725718575
+      credits_39: 4099723884323735428
+      credits_4: 6436455310604450723
+      credits_40: 7934345624357955716
+      credits_41: -7099936066357175360
+      credits_42: 5943283872761254255
+      credits_43: -8219068945538672792
+      credits_44: -3966471647579963104
+      credits_45: -1058751933257725831
+      credits_46: 289155649038839353
+      credits_47: -491188955860553601
+      credits_48: 4651676864871811742
+      credits_49: 3310623312146999298
+      credits_5: -4351946865466845592
+      credits_50: 1554879945811548566
+      credits_51: 3828227083020996506
+      credits_52: 554462039273394800
+      credits_53: 7714128557767807226
+      credits_54: -4925313594667788480
+      credits_55: -5919143578378317076
+      credits_56: 3678502735178143640
+      credits_57: -6533216505931801675
+      credits_58: -7006673593054611199
+      credits_59: -1854859724074397396
+      credits_6: 2239952962376120338
+      credits_60: 7483981427748559515
+      credits_61: 2933812864024492279
+      credits_62: -5101161015840893510
+      credits_63: 8335825547589540852
+      credits_64: -3705536259959193724
+      credits_65: 6266172659292107333
+      credits_66: 2687398747886911971
+      credits_67: 7481459601678686969
+      credits_68: 3048998427245100848
+      credits_69: -7871999011985750990
+      credits_7: 1893597706070973196
+      credits_70: -8127445405553003191
+      credits_71: 8159730407702245652
+      credits_72: -6923478286012995718
+      credits_73: 4121646840042845066
+      credits_74: -719314763134402336
+      credits_75: 4947212197412697047
+      credits_76: 6210426548294535285
+      credits_77: 2557300507101672839
+      credits_78: 8014159868919362633
+      credits_79: -5567979948958137634
+      credits_8: 5078419800979956328
+      credits_80: 1212970441270858759
+      credits_81: 546472629597477161
+      credits_82: -5106900498667907217
+      credits_83: -1058492652903527227
+      credits_84: 209016049391222878
+      credits_85: 1957790065620502386
+      credits_86: -5654022524830315524
+      credits_87: 8923750213904558042
+      credits_88: 9124485154410214271
+      credits_89: -1051043818919212324
+      credits_9: 2538644440574220159
+      credits_90: -3907143794287746740
+      credits_91: -7426949426627431191
+      credits_92: 3702559724368876674
+      credits_93: -5965044648118335374
+      credits_94: 9039702043636662550
+      credits_95: -278523949649205044
+      credits_96: 3454518821717324565
+      credits_97: -957808090608164344
+      credits_98: 3155886822016863060
+      credits_99: 4705104489006073257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

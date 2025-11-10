@@ -77,6 +77,8 @@ public class BirdSceneTrigger : MonoBehaviour
         comicTransitionObject.GetComponent<Animator>().SetTrigger("out");
         yield return new WaitForSeconds(2);
 
+        comicTransitionObject.SetActive(false);
+
         playerMovement.canMove = true;
 
         shootKeyAnimationObject.SetActive(true);

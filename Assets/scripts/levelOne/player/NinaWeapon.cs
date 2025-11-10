@@ -27,11 +27,11 @@ public class NinaWeapon : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        canShoot = true;
+        canShoot = false;
         
         playerMovement = GetComponentInParent<Movement>();
 
-        courageBubble = true;
+        courageBubble = false;
 
         friendshipBubble = false;
 

@@ -34,4 +34,16 @@ public class MenuController : MonoBehaviour
         yield return new WaitForSeconds(2);
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void PlayCredits()
+    {
+        StartCoroutine(creditsSceneTransition());
+    }
+
+    private IEnumerator creditsSceneTransition()
+    {
+        transition.SetTrigger("in");
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadSceneAsync(3);
+    }
 }

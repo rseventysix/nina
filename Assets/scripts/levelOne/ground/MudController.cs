@@ -16,19 +16,19 @@ public class MudController : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
-            playerMovement = collision.gameObject.GetComponent<Movement>();
+            playerMovement = collider.gameObject.GetComponent<Movement>();
 
             playerMovement.speed = 2f;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
             playerMovement.speed = 6f;
         }

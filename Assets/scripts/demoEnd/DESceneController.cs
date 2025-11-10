@@ -6,6 +6,7 @@ public class DESceneController : MonoBehaviour
 {
     [SerializeField] private Animator transition;
     [SerializeField] private GameObject sceneTransitionObject;
+    [SerializeField] private GameObject creditsObject;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,9 +26,14 @@ public class DESceneController : MonoBehaviour
 
     private IEnumerator backToMainMenu()
     {
-        yield return new WaitForSeconds(17);
+        yield return new WaitForSeconds(2);
+
+        creditsObject.SetActive(true);
+
+        yield return new WaitForSeconds(35);
 
         transition.SetTrigger("in");
+
         yield return new WaitForSeconds(2);
 
         SceneManager.LoadSceneAsync(0);
